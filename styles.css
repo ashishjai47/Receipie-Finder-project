@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: urbanist, Helvetica, sans-serif;
+    color: white;
+    background-image: url('stacey-doyle-dOdtMzvjoc4-unsplash\ \(1\).jpg') ;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; */
+    /* z-index: -1; */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    object-fit: cover;
+}
+.container{
+    background-color: white ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: sticky;
+    /* border: 2px solid black; */
+    width: 100%;
+}
+.left ul{
+    list-style: none;
+    display: flex;
+}
+.left ul li:hover{
+    transform: scale(1.1);
+    transition:  0.3s ease-in-out;
+}
+#nav-search:hover{
+    transform: scale(1.3);
+}
+.left ul li{
+    padding: 10px 25px;
+    color: black;
+}
+.left ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+.left ul li:hover{
+    transform: scale(1.1);
+    transition:  0.3s ease-in-out;
+}
+.left ul li a:hover{
+    text-decoration: underline;
+    color: rgb(32, 83, 130);;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding:10px 35px;
+    color: black;
+}
+.logo i{
+    margin: 0;
+    font-size: 40px;
+    padding: 0 5px;
+    color: black;
+
+    /* text-align: center; */
+}
+.logo span{
+    font-size: 20px;
+}
+.search{
+    display: flex;
+    justify-content:space-between;
+    align-items:center ;
+    margin: 45px 350px;
+    padding: 5px 1px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+#input-box{
+    color: white;
+    border: none;
+    background-color: transparent;
+    padding-left: 18px;
+    outline: none;
+    font-size: 15px;
+}
+input::placeholder{
+    color: rgb(234, 213, 213);
+}
+.btn{
+    margin: 0;
+    margin-right: 6px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(13, 122, 224);
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+}
+.search :hover{
+    transform: scale(1);
+}
+.sec-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin:10px 20%;
+    padding: 20px 20%; */
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: rgb(172, 27, 27);
+    width: 90%;
+    border-radius: 30px;
+}
+.inner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    
+}
+.heading{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: double;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+.image img{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 300px;
+    border-radius: 10%;
+}
+.image span{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+.instruction{
+    width: 50%;
+}
+.instruction p{
+    font-size: 18px;
+    padding-left: 20px;
+}
+.origin{
+    margin-left: 10px;
+}
+.watch a i{
+    font-size: 60px;
+    margin-left: 360px;
+}
